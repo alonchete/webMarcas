@@ -77,8 +77,8 @@ body{
   float:none;
   width:340px;
   height: 38px;
+  margin: 1.5px;
   margin-bottom: 2px;
-
 
 }
 
@@ -88,14 +88,14 @@ body{
 
 #menu ul li:hover > ul {
   display:block;
-  padding: 2px;
+  padding: 1px;
 
 }
 
 .border-button {
   color: white;
 
-  border: solid 1px black;
+  border: solid 1.5px black;
   transition: border-width 1.1s linear;
   transition: border-color 1.1s linear;
 
