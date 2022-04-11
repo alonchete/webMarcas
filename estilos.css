@@ -1,36 +1,31 @@
 body{
     margin: 0px;
 }
-.logo{
-    border: #8a9597 solid 1px;
-    font-family:'Courier New', Courier, monospace;
-    height: 150px;
-    width: 100%;
-    margin: 0;
-  background-color: #000000;
-
-  border-top: gold solid 1px;
-}   
 
 #menu{
-    height: 38px;
+    height: 100px;
     width: 100%;
     margin: 0;
     border-top: none;
+    background-color: #000000;
+    
+
 
 }
 #menu ul li {
-    background-color:#2e2e29;
+    background-color:#000000;
     
 
 }
+
 
 #menu ul {
   list-style:none;
   margin:0;
   padding:0;
-  position: absolute;
-  display: flex;
+  position: relative;
+  display: block;
+  float: right;
 }
 
 #menu ul a {
@@ -52,7 +47,7 @@ body{
   float:left;
   margin:0;
   padding:0;
-  width: 340px;
+  width: 250px;
   text-align: center;
   height: 38px;
   
@@ -75,7 +70,6 @@ body{
 
 #menu ul ul li {
   float:none;
-  width:340px;
   height: 38px;
   margin: 1.5px;
   margin-bottom: 2px;
@@ -93,9 +87,9 @@ body{
 }
 
 .border-button {
-  color: white;
+  color: rgb(255, 255, 255);
 
-  border: solid 1.5px black;
+  border: solid 2px black;
   transition: border-width 1.1s linear;
   transition: border-color 1.1s linear;
 
@@ -104,7 +98,7 @@ body{
 .border-button:hover { 
   
   border-width: 2px;
-  border-color:gold;
+  border-color:#917d10;
    }
 
 
@@ -118,28 +112,27 @@ body{
 
 .texto {
   text-align: right;
-  margin-right: 90px;
+  margin-right: 0px;
   color: wheat;
   margin-top: 15px;
-
-  margin-left: 80px;
+  margin-right: 130px;
   margin-bottom: 20px;
   width: 400px;
   border-bottom: silver solid 2px;
-
-  float: left;
+  float: right;
 }
 
 .ima {
-  float: left;
+  width: 500px;
   margin-top: 15px;
-  margin-left: 150px;
-  margin-right: 10px;  
+  margin-left: 130px;
+  margin-right: 0px;  
   border-right: #ccac00 solid 2px;
+  float: left;
 }
 
 
-footer{  
+.footer{  
   border-top:#bbab51 solid 2px ;
   background-color: rgb(0, 0, 0);
   position: absolute;
