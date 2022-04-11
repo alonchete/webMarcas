@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+}
+.logo{
+    border: #8a9597 solid 1px;
+    font-family:'Courier New', Courier, monospace;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+  background-color: #000000;
+
+  border-top: gold solid 1px;
+}   
+
+#menu{
+    height: 38px;
+    width: 100%;
+    margin: 0;
+    border-top: none;
+
+}
+#menu ul li {
+    background-color:#2e2e29;
+
+}
+
+#menu ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  display: flex;
+}
+
+#menu ul a {
+  display:block;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font: small-caps 100%/200% serif;
+
+}
+
+#menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+  width: 340px;
+  text-align: center;
+
+}
+
+
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0;
+}
+
+#menu ul ul li {
+  float:none;
+  width:340px;
+
+}
+
+#menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+
+}
+
+#menu ul li:hover > ul {
+  display:block;
+}
+
+.border-button {
+  color: white;
+
+  border: solid 1px black;
+  transition: border-width 1.1s linear;
+  transition: border-color 1.1s linear;
+
+  
+  
+  
+}
+
+.border-button:hover { 
+  
+  border-width: 3px;
+  border-color:gold;
+   }
+
+
+.presentacion{
+  margin-top: 14px;
+  border-top: #ccac00 solid 2px;
+  height: 540px;
+  width: 100%;
+  background-color: #000000;
+}
+
+
+.texto {
+  text-align: right;
+  margin-right: 90px;
+  color: wheat;
+  margin-top: 15px;
+
+  margin-left: 80px;
+  margin-bottom: 20px;
+  width: 400px;
+  border-bottom: silver solid 2px;
+
+  float: left;
+}
+
+.ima {
+  float: left;
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: 10px;  
+  border-right: #ccac00 solid 2px;
+}
+
+
+footer{  
+  border-top:#bbab51 solid 2px ;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+  position: relative;
+}
+
